@@ -8,7 +8,22 @@
 > + Языки программирования: Java, JS, C++, C# на уровне базы/основ  
 > + HTML и CSS  
 > + Имеется опыт работы с GitHub  
-5. ``` код ```  
+5. **Пример кода:**
+```
+function capital(capitals){  
+ return capitals.map(message => `The capital of ${message.state || message.country} is ${message.capital}`);  
+}  
+```
+---
+```
+function capital(capitals){  
+ let message = [];  
+ for (let i = 0; i < capitals.length; i++){  
+  message.push("The capital of " + (capitals[i].state || capitals[i].country) + " is " + capitals[i].capital);  
+  }  
+  return message;  
+ } 
+```
 6. Опыт работы отсутствует. По мере выполнения тасков в RS School будут появляется проекты.  
 7. **Образование:**  
 > Окончил БГУИР "Автоматизированные системы обработки информации" в 2019 году.  
